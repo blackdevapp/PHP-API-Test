@@ -1,0 +1,31 @@
+{
+    "description":"A test project",
+    "name": "vendor/api",
+    "type": "project",
+    "require": {
+        "php": "^7.3",
+        "phpunit/phpunit":"^5.6"
+    },
+    "authors": [
+        {
+            "name": "h.bagheri",
+            "email": "bagheri@ava-telecom.ir"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "models\\":"models/",
+            "controllers\\":"controllers/",
+            "core\\":"core/",
+            "helpers\\":"helpers/",
+            "vendor\\":"vendor/"
+        },
+        "classmap": [
+           
+        ],
+        "files": [
+        ]
+    }
+    
+
+}

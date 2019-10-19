@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(http:\/\/)?([\w\.]+\/)([\w\-\/]+) /index.php?req=$2$3$4&%{QUERY_STRING}
